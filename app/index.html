@@ -5,20 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Tip Calculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
-    
 </head>
 <body>
     
-    <h1>Tip Calculator</h1>
-    <input type="text" placeholder="Enter Bill Total Here">
-    <button class="btn" id = "ten">10%</button>
-    <button class="btn" id = "fifteen">15%</button>
-    <button class="btn" id = "twenty">20%</button>
-    <h2>Tip total: <span id="tipTotal"></span></h2>
-    <h3>Bill total: <span id=billTotal></span></h3>
+    <div class="container">
+        <section class="main">
+            <div class="row">
+                <div class="col-md-4 offset-sm-2 col-sm-8 offset-md-4 mt-5">
+                    <h1 class="mb-3">Tip Calculator</h1>
+                    <input type="text" placeholder="Enter Bill Total Here"class="m-2">
+                    <button class="btn btn-lt m-2" id = "ten">10%</button>
+                    <button class="btn btn-mid m-2" id = "fifteen">15%</button>
+                    <button class="btn btn-rt m-2" id = "twenty">20%</button>
+                    <h2 class="m-2">Tip total: <span id="tipTotal"></span></h2>
+                    <h3 class="m-2">Bill total: <span id=billTotal></span></h3>
+                </div>
+            </div>
+        </section>
+    </div>
 
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="../js/app.js"></script>
 </body>
 </html>

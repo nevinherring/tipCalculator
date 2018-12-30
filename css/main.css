@@ -1,3 +1,23 @@
 body {
-    background-color: purple;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+.btn {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+input{
+    display: block;
+}
+
+.main {
+    width: 62.5rem;
+    height: 35rem;
+    margin: 0 auto;
+    background-image: url("../img/restraunt-table.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
