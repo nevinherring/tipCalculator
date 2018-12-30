@@ -8,7 +8,22 @@ let billTotal = document.getElementById("billTotal");
 
 //create event listeners
 btnTen.addEventListener("click", function(){
-    console.log(input);
+    let num =parseInt(input.value);
+    let tip = num * .10;
+    tipTotal.textContent = tip.toFixed(2);
+    billTotal.textContent = num + tip;
 });
 
-//write functions
+btnFifteen.addEventListener("click", function(){
+    let num =parseFloat(input.value);
+    let tip = num * .15;
+    tipTotal.textContent = tip.toFixed(2);
+    billTotal.textContent = num + tip;
+});
+
+btnTwenty.addEventListener("click", function(){
+    let num =parseInt(input.value);
+    let tip = num * .20;
+    tipTotal.textContent = tip.toFixed(2);
+    billTotal.textContent = num + tip;
+});
